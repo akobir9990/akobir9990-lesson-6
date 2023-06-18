@@ -1,0 +1,79 @@
+.headerTitle {
+  width: 100%;
+  height: 47px;
+  background: #b36050;
+  display: flex;
+  align-items: center;
+}
+.headerTitle .container h1 {
+  display: flex;
+  justify-content: center;
+}
+.headerTitle h1 {
+  color: #f1d3b9;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.headerNav .container {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerNav .container .navList {
+  width: 38%;
+}
+.headerNav .container .headerLogo {
+  width: 25%;
+}
+.headerNav .container .headerBtns {
+  width: 37%;
+}
+.headerLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+}
+.listItem a {
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.headerBtns {
+  display: flex;
+  justify-content: end;
+  padding: 0 15px;
+}
+
+.listItem a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #b4604d;
+}
+.headerBtns {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.headerBtns > * {
+  margin: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  color: #b45f4d;
+  text-decoration: none;
+}
+.headerBtns .store > * {
+  margin: 5px;
+}
+.headerBtns .store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

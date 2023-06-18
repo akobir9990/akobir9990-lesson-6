@@ -1,0 +1,97 @@
+.shopingSectionImg {
+  background-size: cover;
+}
+.shopingSectionIMG {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 435px;
+  background-size: cover;
+  background-image: url(../images/shopingSectionBG.png);
+}
+
+.shopingSectionText {
+  height: 304px;
+  background: #a9ae8d;
+}
+
+.shopingSectionText .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.shopingSectionText .container p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px;
+}
+.shopingSectionText .container h2 {
+  font-size: 33px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.shopingNow {
+  height: 48px;
+  font-size: 17px;
+  font-weight: 400;
+  background: #b45f4d;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  height: 650px;
+  color: #b45f4d;
+}
+.card h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 35px 0 23px 0;
+}
+.card p {
+  margin-bottom: 30px;
+}
+.prettyBottleSection .container h2 {
+  margin: 40px 0;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  color: #b45f4d;
+}
+.prettyBottleSectionBtns {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.meetDaeSection .container {
+  padding: 100px 120px;
+  display: flex;
+  border: 1px solid red;
+  background: #f1d3b9;
+}
+.meetDaeSectionText {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  justify-content: center;
+  background: #f8f8f8;
+  padding: 130px 70px;
+  text-align: center;
+}
+.meetDaeSectionText h2 {
+  margin-bottom: 22px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.meetDaeSectionText p {
+  font-size: 19px;
+  font-weight: 400;
+}

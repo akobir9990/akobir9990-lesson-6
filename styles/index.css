@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular\ 18.39.26.ttf);
+}
+
+.container {
+  width: 1280px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+.shopSetSection {
+  padding: 35px;
+}
+.shopSetSection .container {
+  height: 407px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/section3.png);
+}
+.shopsetTitle {
+  padding: 0 45px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 270px;
+  height: 92px;
+  top: 270px;
+  background: #df9b7a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
